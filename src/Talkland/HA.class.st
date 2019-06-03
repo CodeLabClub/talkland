@@ -67,7 +67,6 @@ HA >> turnOff [
 	cli
     		url: 
 			HA_host,'/api/services/switch/turn_off';
-			"'https://rpi.codelab.club:8123/api/services/light/turn_off';"
     		entity: (ZnEntity 
         		with: (STONJSON toString: jsonObject) "入口灯"
         		type: ZnMimeType applicationJson);
@@ -90,7 +89,6 @@ HA >> turnOn [
 	cli
     		url: 
 			HA_host,'/api/services/switch/turn_on';
-			"'https://rpi.codelab.club:8123/api/services/light/turn_off';"
     		entity: (ZnEntity 
         		with: (STONJSON toString: jsonObject) "入口灯"
         		type: ZnMimeType applicationJson);
