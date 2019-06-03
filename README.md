@@ -19,5 +19,5 @@ work with Iceberg : [Iceberg Tutorial](https://github.com/pharo-vcs/iceberg/wiki
 |ha|
 ha := HA new.
 ha turnOn.
-ha turnOn.
+ha turnOff.
 ```
